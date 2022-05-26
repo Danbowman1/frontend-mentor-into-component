@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles//main.css">
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    h1 {
+      color: hsl(246, 25%, 77%);
+    }
+  </style>
+</head>
+<body class="p-5 min-vh-100 d-flex align-items-center">
+  <div class="container" >
+    <div class="row">
+      <div class="col-md-6 align-self-center">
+        <h1 class="text-white fw-bold mb-4">Learn to code by watching others</h1>
+        <p class="text-white">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+          but understanding how developers think is invaluable. </p>
+      </div>
+      <div class="col-md-6 ">
+        <p class="text-center text-white shadow p-3 bg-info rounded-3" id="free-trial"> Try it free 7 days then $20/mo. thereafter</p>
+          <form class="bg-white p-5 rounded-3 shadow">
+              <div class="form-group">
+                  <input type="text" class="form-control mb-2 px-4 py-3 fw-bolder"  id="first-name" placeholder="First Name">
+                  <small class="invalid-feedback text-end fst-italic">
+                      First Name cannot be empty
+                  </small>
+              </div>
+              <div class="form-group ">
+                  <input type="text" class="form-control mb-2 mt-3 px-4 py-3 fw-bolder" id="last-name" placeholder="Last Name">
+                  <div class="invalid-feedback text-end fst-italic">
+                    Last Name cannot be empty
+                  </div>
+              </div>
+              <div class="form-group my-3">
+                  <input type="text" class="form-control mb-2 mt-3 px-4 py-3 fw-bolder" id="email" placeholder="Email Address">
+                  <div class="invalid-feedback text-end fst-italic">
+                      Looks like this is not an email
+                  </div>
+              </div>
+              <div class="form-group my-3">
+                  <input type="text" class="form-control mb-2 mt-3 px-4 py-3 fw-bolder" id="password" placeholder="Password">
+                  <div class="invalid-feedback text-end fst-italic">
+                      Password cannot be empty
+                  </div>
+              </div>
+              <div class="d-grid">
+                  <button type="submit" class="btn btn-secondary btn-block text-uppercase text-white p-3 fw-light shadow my-1">Claim Your Free Trail</button>
+              </div>
+              <div class="text-center mt-4">
+                <small class="text-light">By clicking the button, you are agreeing to our <a role="button" class="text-primary fw-bolder text-decoration-none ">Terms and Services</a></small>
+              </div>
+          </form>
+      </div>
+  </div>
+  </div>
+
+  
+  
+  <footer class="fixed-bottom">
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

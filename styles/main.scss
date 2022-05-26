@@ -1,0 +1,20 @@
+$theme-colors: (
+    'primary': hsl(0, 100%, 74%) ,
+    'secondary': hsl(154, 59%, 51%),
+    'info': hsl(248, 32%, 49%),
+    'light': hsl(246, 25%, 77%),
+);
+
+$font-family-sans-serif: 'Poppins', sans-serif;
+
+$box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+
+@import "node_modules/bootstrap//scss/bootstrap";
+
+body {
+    background-color: hsl(0, 100%, 74%) ;
+    background-image: url('/images/bg-intro-desktop.png');
+}
+
+
